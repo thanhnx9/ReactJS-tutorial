@@ -12,3 +12,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.column {
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+/* Clear floats after the columns */
+/*.row:after {*/
+  /*content: "";*/
+  /*display: table;*/
+  /*clear: both;*/
+/*}*/
+
+/*.card {*/
+  /*border: 2px #61dafb solid;*/
+/*}*/
